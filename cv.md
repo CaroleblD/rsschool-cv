@@ -50,6 +50,10 @@ function multiply (a, b) {
 }
 ```
 
+### **My project:**
+
+This is my first **[Portfolio](https://github.com/CaroleblD/Portfolio)** that I could make using HTML and CSS..
+
 
 
 ## **Experience:**
@@ -82,6 +86,6 @@ I'm very glad to join you. I'm sure I'll gain a lot of experience from your cour
 
 ## **Language:**
 
-**Russian** - Native
+**Russian** - Native;
 
-**English** - A1/A2 Begginer/Elementary
+**English** - A1/A2 Begginer/Elementary.
