@@ -1,6 +1,8 @@
 body {
     width: 800px;
     margin: 0 auto;
+
+
 }
 
 
@@ -16,9 +18,19 @@ body {
 
 .my-work-name {
     font-family: BeVietnamPro;
-    font-weight: 300;
+    font-weight: 200;
 }
 
+p {
+    font-family: BeVietnamPro;
+    font-weight: 200;
+}
+
+h1 {
+    font-family: BeVietnamPro;
+    font-weight: 500;
+    text-transform: uppercase;
+}
 
 
 /* header {
@@ -41,20 +53,23 @@ body {
 }
 
 .child-text {
-    background-color: grey;
+    background-color: rgb(221, 221, 221);
 }
 
 .child-photo {
     margin-right: 50px;
-    background-color: grey;
+    background-color: rgb(221, 221, 221);
 }
 
 footer {
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-between;
-    background-color: grey;
-    /* padding: ; */
+    background-color: rgb(221, 221, 221);
+    position: absolute;
+    bottom: 0;
+    width: 800px;
+    
 
 }
 
