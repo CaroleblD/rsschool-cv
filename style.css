@@ -13,9 +13,11 @@ body {
     font-weight: 200;
     font-size: 55px;
     letter-spacing: 15px;
-    line-height: 0.2;
+    line-height: 1;
     float: right;
-    margin-right:60px;
+    margin: 0 60px 0 0;
+    /* margin-bottom: 0px; */
+    /* border: 1px solid; */
 }
 
 .my-last-name {
@@ -23,20 +25,25 @@ body {
     font-weight: 100;
     text-transform: none;
     font-size: 40px;
-    line-height: 1;
+    /* line-height: 0.1; */
+    /* border: 1px solid; */
+    float: left;
+    margin: 5px 0 0 0;
 }
 
 .my-work-name {
+
     font-family: BeVietnamPro;
     font-weight: 200;
     font-size: 18px;
     letter-spacing: 10px;
     margin-bottom: 50px;
     text-align: center;
+    /* padding-top: 120px; */
 }
 
 p {
-    /* margin-left: 30px; */
+
     font-family: BeVietnamPro;
     font-weight: 200;
     font-size: 17px;
@@ -48,7 +55,7 @@ h1 {
     text-transform: uppercase;
     font-size: 18px;
     /* background-color: brown; */
-    margin-top: 50px;
+    /* margin-top: 50px; */
 }
 
 
@@ -66,7 +73,7 @@ h1 {
     display: flex;
     flex-direction: row-reverse;
     /* align-items: center; */
-    margin-top: 10px;
+    /* margin-top: 10px; */
 }
 
 .child-text {
@@ -79,7 +86,7 @@ h1 {
     /* background-color: rgb(221, 221, 221); */
     width: 50%;
     text-align: center;
-    margin-top: 80px;
+    /* margin-top: 80px; */
 }
 
 footer {
@@ -95,16 +102,18 @@ footer {
     align-items: center;
 }
 
+.education {
+    display: flex;
+}
+
 .work {
     /* background-color: blue; */
-    float: left;
     width: 35%;
     line-height: 0.5;
     margin-top: -15px;
 }
 
 .data {
-    float: right;
     text-align: center;
     /* background-color: blue; */
     width: 30%;
@@ -113,9 +122,9 @@ footer {
     margin-top: -15px;
 }
 
-.experience {
+/* .experience {
     margin-top: 140px;
-}
+} */
 
 @font-face {
     font-family: BeVietnamPro;
