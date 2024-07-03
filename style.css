@@ -1,0 +1,147 @@
+body {
+    width: 800px;
+    margin: 0 auto;
+}
+
+
+.my-name {
+    font-family: BlackMango;
+    font-weight: 300
+}
+
+.my-last-name {
+    font-family: Halimum;
+    font-weight: 100;
+}
+
+.my-work-name {
+    font-family: BeVietnamPro;
+    font-weight: 300;
+}
+
+
+
+/* header {
+    float: right;
+} */
+
+.My-photo {
+    width: 250px;
+
+}
+
+.logo-rsschool {
+    width: 100px;
+}
+
+.parent {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.child-text {
+    background-color: grey;
+}
+
+.child-photo {
+    margin-right: 50px;
+    background-color: grey;
+}
+
+footer {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    background-color: grey;
+    /* padding: ; */
+
+}
+
+
+@font-face {
+    font-family: BeVietnamPro;
+    src: url("assets/fonts/BeVietnamPro/BeVietnamPro-Thin.ttf");
+    font-weight: 100;
+}
+
+@font-face {
+    font-family: BeVietnamPro;
+    src: url("assets/fonts/BeVietnamPro/BeVietnamPro-Light.ttf");
+    font-weight: 200;
+}
+
+@font-face {
+    font-family: BeVietnamPro;
+    src: url("assets/fonts/BeVietnamPro/BeVietnamPro-Regular.ttf");
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: BeVietnamPro;
+    src: url("assets/fonts/BeVietnamPro/BeVietnamPro-Medium.ttf");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: BeVietnamPro;
+    src: url("assets/fonts/BeVietnamPro/BeVietnamPro-Bold.ttf");
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: BeVietnamPro;
+    src: url("assets/fonts/BeVietnamPro/BeVietnamPro-Black.ttf");
+    font-weight: 600;
+}
+
+
+
+
+
+
+@font-face {
+    font-family: BlackMango;
+    src: url("assets/fonts/BlackMango/BlackMango-Thin.ttf");
+    font-weight: 100;
+}
+
+@font-face {
+    font-family: BlackMango;
+    src: url("assets/fonts/BlackMango/BlackMango-Light.ttf");
+    font-weight: 200;
+}
+
+@font-face {
+    font-family: BlackMango;
+    src: url("assets/fonts/BlackMango/BlackMango-Regular.ttf");
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: BlackMango;
+    src: url("assets/fonts/BlackMango/BlackMango-Medium.ttf");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: BlackMango;
+    src: url("assets/fonts/BlackMango/BlackMango-Bold.ttf");
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: BlackMango;
+    src: url("assets/fonts/BlackMango/BlackMango-Black.ttf");
+    font-weight: 600;
+}
+
+
+
+
+
+
+@font-face {
+    font-family: Halimum;
+    src: url("assets/fonts/Halimum/Halimun.ttf");
+}
