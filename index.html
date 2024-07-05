@@ -5,157 +5,191 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
 
-    <div class="parent">
+    <header>
+        <nav>
+            <ul>
+                <li><a>About me</a></li>
+                <li><a>Education</a></li>
+                <li><a>Experience</a></li>
+                <li><a>Language</a></li>
+                <li><a>Contact</a></li>
+                <li><a>Skills</a></li>
+                <li><a>Code examples</a></li>
+                <li><a>My project</a></li>
+            </ul>
+        </nav>
+
+    </header>
 
 
-        <div class="child-text">
 
-            <header>
-                <h1 class="my-name">Daria</h1>
-                <h2 class="my-last-name">Mishchenko</h2>
-                <h2 class="my-work-name">Frontend Developer</h2>
-            </header>
+    <main>
+        <div class="content">
+            <!-- ___________________ HISTORY ___________________ -->
 
-            <main>
-                <article>
-                    <h2></h2>
-                    <section>
-                        <h3>About Me</h3>
-                        <p>In school, I fell in love with computer science and even back then, I thought that
-                            programming was
-                            exactly what I needed. I dreamed that one day I would create my first game that millions of
-                            people
-                            would play. Once, I took a free course in Python, which I honestly completely forgot. But
-                            soon
-                            after, I had the chance to enroll in School 21, where I fully realized what programming
-                            really
-                            entails.
-                            I tried programming in C, dabbled in system administration, but with each project,
-                            I felt
-                            more and more discouraged, thinking that programming wasn’t for me. Then some friends
-                            suggested I
-                            try web development. And that’s when I realized it was exactly what I needed. I’ve always
-                            liked
-                            design, so Frontend development is the best option for me.
+            <article class="history">
+                <h2>History</h2>
 
-                            Now, I dedicate all my free time to learning HTML, CSS, and JavaScript, and my goal is to
+                <section>
+                    <h3><span class="my-name">Daria</span>
+                        <span class="my-last-name">Mishchenko</span>
+                        <span class="my-work-name">Frontend&nbsp;Developer</span>
+                    </h3>
+                </section>
+
+                <section>
+                    <h3>About Me</h3>
+                    <p>In school, I fell in love with computer science and even back then, I thought that
+                        programming was
+                        exactly what I needed. I dreamed that one day I would create my first game that millions of
+                        people
+                        would play. Once, I took a free course in Python, which I honestly completely forgot. But
+                        soon
+                        after, I had the chance to enroll in School 21, where I fully realized what programming
+                        really
+                        entails.
+                        I tried programming in C, dabbled in system administration, but with each project,
+                        I felt
+                        more and more discouraged, thinking that programming wasn’t for me. Then some friends
+                        suggested I
+                        try web development.
+                        And that’s when I realized it was exactly what I needed.
+                        I’ve always
+                        liked
+                        design, so Frontend development is the best option for me.
+
+                        <!-- Now, I dedicate all my free time to learning HTML, CSS, and JavaScript, and my goal is to
                             become a
-                            skilled Frontend developer.</p>
-                    </section>
+                            skilled Frontend developer.</p> -->
+                </section>
 
-                    <section>
-                        <h3>Education</h3>
-                        <div class="education">
-                            <div class="work">
-                                <p>School 21</p>
-                                <p>JavaScript Club</p>
-                                <p>RS School</p>
-                            </div>
-                            <div class="data">
-                                <p>2023 - 2024</p>
-                                <p>2024</p>
-                                <p>2024</p>
-                            </div>
-                        </div>
-                    </section>
+                <!-- <section>
+                <h3>Education</h3>
+                <div class="education">
+                    <div class="work">
+                        <p>School 21</p>
+                        <p>JavaScript Club</p>
+                        <p>RS School</p>
+                    </div>
+                    <div class="data">
+                        <p>2023 - 2024</p>
+                        <p>2024</p>
+                        <p>2024</p>
+                    </div>
+                </div>
+            </section> -->
 
-                    <section>
-                        <h3>Experience</h3>
-                        <p>I have no experience as a programmer.
+                <section>
+                    <h3>Education</h3>
+                    <div class="education">
+                        <p><span>School 21</span><span class="data">2023 - 2024</span></p>
+                        <p><span>JavaScript Club</span><span class="data">2024</span></p>
+                        <p><span>RS School</span><span class="data">2024</span></p>
+                    </div>
+                </section>
 
-                            I used to work in a library, create presentations and draw posters.</p>
-                    </section>
+                <section>
+                    <h3>Experience</h3>
+                    <p>I have no experience as a programmer.
 
-                    <section>
-                        <h3>Language</h3>
-                        <div class="language">
-                            <p>Russian - Native;</p>
-                            <p> English - A1/A2 Begginer/Elementary.</p>
-                        </div>
-                    </section>
-                </article>
+                        I used to work in a library, create presentations and draw posters.</p>
+                </section>
+
+                <section>
+                    <h3>Language</h3>
+                    <div class="language">
+                        <p>Russian - Native;</p>
+                        <p> English - A1/A2 Begginer/Elementary.</p>
+                    </div>
+                </section>
+            </article>
+
+            <!-- ___________________ INFORMATION ___________________ -->
+
+            <article class="information">
+                <div class="grey-block-0"></div>
+                <h2>Information</h2>
+                <div class="grey-block-1"></div>
+
+                <section>
+
+                    <img class="My-photo" src="assets/images/my-photo-html.jpg" alt="My-photo">
+                    <div class="grey-block-2"></div>
+                    <div class="line-1"></div>
+                    <div class="contact">
+                        <h3>Contact</h3>
+                        <ul>
+                            <li>Phone: +7 996 446 16 22</li>
+                            <li>E-mail: endlesslonelinesselln@gmail.com</li>
+                            <li>Telegram: @dashkunt</li>
+                            <li>Discord: dashkunt</li>
+                        </ul>
+                    </div>
+
+                    <div class="line-2"></div>
+                </section>
+
+                <div class="grey-block-3"></div>
+
+                <section>
+                    <div class="line-3"></div>
+
+                    <h3>Skills</h3>
+                    <div class="skills">
+                        <ul>
+                            <li>HTM, CSS, JavaScript</li>
+                            <li>C, Bash, DevOps</li>
+                            <li>GitHub, VS Code, Canva</li>
+                        </ul>
+                    </div>
+                    <div class="line-4"></div>
+                </section>
+
+                <div class="grey-block-4"></div>
+            </article>
+        </div>
+
+        <!-- ___________________ CODE EXAMPLES ___________________ -->
+
+        <article class="code-examples">
+
+            <h2>Code examples</h2>
+
+            <p>This code does not execute properly. Try to figure out why.</p>
+
+            <div>
+                <ol>
+                    <li><span>function multiply (a, b) {</span></li>
+                    <li><span>&nbsp;&nbsp;&nbsp;&nbsp;return a * b;</span></li>
+                    <li><span>}</span></li>
+                </ol>
             </div>
 
 
+        </article>
 
+        <!-- ___________________ MY PROJECT ___________________ -->
 
-                <div class="child-photo">
-                    <article>
-                        <h2></h2>
-                        <section>
-                            <div class="grey-block-1"></div>
+        <article class="my-project">
 
-                            <img class="My-photo" src="assets/images/my-photo-html.jpg" alt="My-photo"/>
+            <h2>My project</h2>
 
-                            <div class="grey-block-2"></div>
+            <a></a>
 
-                            <div class="line-1"></div>
+        </article>
+    </main>
 
-                            <div class="contact">
-                                <h3>Contact</h3>
-                                <div class="contact-phone">
-                                    <!-- <img class="icon-phone" src="assets/images/icon-phone.png" alt="icon-phone" /> -->
-                                    <p>Phone: +7 996 446 16 22</p>
-                                </div>
-
-                                <div class="contact-mail">
-                                    <!-- <img class="icon-mail" src="assets/images/icon-mail.png" alt="icon-mail" /> -->
-                                    <p>E-mail: endlesslonelinesselln@gmail.com</p>
-                                </div>
-
-                                <div class="contact-telegram">
-                                    <!-- <img class="icon-telegram" src="assets/images/icon-telegram.png" alt="icon-telegram" /> -->
-                                    <p>Telegram: @dashkunt</p>
-                                </div>
-
-                                <div class="contact-discord">
-                                    <!-- <img class="icon-discord" src="assets/images/icon-discord.png" alt="icon-discord" /> -->
-                                    <p>Discord: dashkunt</p>
-                                </div>
-                            </div>
-                            <div class="line-2"></div>
-                        </section>
-
-                        <div class="grey-block-3"></div>
-
-                        <section>
-                            <div class="line-3"></div>
-
-                            <h3>Skills</h3>
-                            <div class="skills">
-                                <p><span>HTM,</span>
-                                    <span>CSS,</span>
-                                    <span>JavaScript</span>
-                                </p>
-                                <p><span>C,</span>
-                                    <span>Bash,</span>
-                                    <span>DevOps</span>
-                                </p>
-                                <p><span>GitHub,</span>
-                                    <span>VS Code,</span>
-                                    <span>Canva</span>
-                                </p>
-                            </div>
-                            <div class="line-4"></div>
-                        </section>
-
-                        <div class="grey-block-4"></div>
-                    </article>
-                </div>
-            </main>
-        
-    </div>
-
+    <!-- ___________________ FOOTER ___________________ -->
 
     <footer>
         <a href="https://rs.school/courses/javascript-preschool-ru"><img class="logo-rsschool"
-                src="assets/images/rsschool-logo.png" alt="RS School Logotype"/></a>
+                src="assets/images/rsschool-logo-1.png" alt="RS School Logotype"></a>
         <div class="github"><a href="https://github.com/CaroleblD">GitHub</a></div>
         <p>© 2024 by Daria Mishchenko</p>
     </footer>
