@@ -21,6 +21,55 @@ p, li {
     color: white;
 }
 
+
+
+
+
+
+
+
+nav {
+    width: 1300px;
+    margin: 0 auto;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.749);
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    margin-left: -150px;
+    /* position: sticky; */
+    margin-bottom: 50px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    margin-right:20px;
+    margin-top: 0;
+}
+
+nav a {
+    font-family: BeVietnamPro;
+    font-weight: 600;
+    font-size: 17px;
+    text-transform: uppercase;
+}
+
+nav ul li {
+    list-style-type: none;
+    /* margin: 0 auto;
+    margin-left: -3px; */
+    padding: 20px;
+    padding-left: 0;
+}
+
+
+
+
+
+
+
+
+
 .content {
     background-color: rgba(0, 0, 0, 0.749);
     backdrop-filter: blur(20px);
