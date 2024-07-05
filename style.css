@@ -3,9 +3,8 @@
 }
 
 body {
-    width: 900px;
+    width: 1000px;
     margin: 0 auto;
-    /* margin-top: 60px; */
 }
 
 
@@ -16,10 +15,9 @@ body {
     letter-spacing: 15px;
     line-height: 1;
     float: right;
-    margin: 0 50px 0 0;
+    margin: 0 60px 0 0;
     /* margin-bottom: 0px; */
     /* border: 1px solid; */
-    background: none;
 }
 
 .my-last-name {
@@ -31,9 +29,6 @@ body {
     /* border: 1px solid; */
     float: left;
     margin: 5px 0 0 0;
-    margin-top: -20px;
-    margin-bottom: 20px;
-    background: none;
 }
 
 .my-work-name {
@@ -43,7 +38,6 @@ body {
     font-size: 18px;
     letter-spacing: 10px;
     margin-bottom: 50px;
-    /* margin-top: 50px; */
     text-align: center;
     /* padding-top: 120px; */
 }
@@ -55,44 +49,39 @@ p {
     font-size: 17px;
 }
 
-h3 {
+h1 {
     font-family: BeVietnamPro;
     font-weight: 500;
     text-transform: uppercase;
     font-size: 18px;
-    /* background-color:rgb(221, 221, 221); */
+    /* background-color: brown; */
     /* margin-top: 50px; */
 }
 
 
 .My-photo {
-    width: 350px;
+    width: 300px;
     border-radius: 15px;
     /* height: ; */
 }
 
 .logo-rsschool {
-    width: 90px;
+    width: 100px;
 }
 
-.parent {
+.content {
     display: flex;
     flex-direction: row-reverse;
     /* align-items: center; */
     /* margin-top: 10px; */
 }
 
-.child-text {
+.history {
     /* background-color: rgb(221, 221, 221); */
     width: 50%;
-    margin-top: 60px;
 }
 
-/* .child-text h1 {
-    padding-left: 3px;
-} */
-
-.child-photo {
+.information  {
     margin-right: 50px;
     /* background-color: rgb(221, 221, 221); */
     width: 50%;
@@ -107,45 +96,11 @@ footer {
     background-color: rgb(221, 221, 221);
     border-top-right-radius: 15px;
     border-top-left-radius: 15px;
-    /* position: absolute; */
+    position: absolute;
     bottom: 0;
     width: 900px;
     align-items: center;
-    padding-top: 5px;
 }
-
-footer img {
-    margin-right: 20px;
-}
-
-footer p {
-    margin-left: 20px;
-}
-
-footer .github {
-    margin-left: 300px;
-    font-size: 30px;
-    font-family: BeVietnamPro;
-    font-weight: 600;
-}
-
-a {
-    text-decoration: none;
-}
-
-a:visited {
-    color: black;
-}
-
-a:hover {
-    filter: invert(1);
-    transition: 1s;
-}
-
-/* a:hover img {
-    filter: invert(1);
-    transition: 1s;
-} */
 
 .education {
     display: flex;
@@ -170,148 +125,6 @@ a:hover {
 /* .experience {
     margin-top: 140px;
 } */
-
-.grey-block-1 {
-    height: 80px;
-    width: 50%;
-    background-color: rgb(221, 221, 221);
-    margin: 0 auto;
-}
-
-.grey-block-2 {
-    height: 60px;
-    width: 50%;
-    background-color: rgb(221, 221, 221);
-    margin: 0 auto;
-    margin-top: -5px;
-}
-
-.grey-block-3 {
-    height: 40px;
-    width: 50%;
-    background-color: rgb(221, 221, 221);
-    margin: 0 auto;
-}
-
-.grey-block-4 {
-    height: 80px;
-    width: 50%;
-    background-color: rgb(221, 221, 221);
-    margin: 0 auto;
-}
-
-.contact {
-    margin-top: 20px;
-}
-
-.skills {
-    margin-top: 20px;
-}
-
-.line-1 {
-    height: 1px;
-    width: 81%;
-    background-color: black;
-    margin: 0 auto;
-
-}
-
-.line-2 {
-    height: 1px;
-    width: 81%;
-    background-color: black;
-    margin: 0 auto;
-    margin-top: 20px;
-}
-
-.line-3 {
-    height: 1px;
-    width: 81%;
-    background-color: black;
-    margin: 0 auto;
-}
-
-.line-4 {
-    height: 1px;
-    width: 81%;
-    background-color: black;
-    margin: 0 auto;
-    margin-top: 20px;
-}
-
-.language p{
-    margin: 0;
-    line-height: 1.7;
-}
-
-/* .icon-phone {
-    height: 17px;
-    margin-right: 15px;
-}
-
-.icon-mail {
-    height: 13px;
-    margin-right: 15px;
-}
-
-.icon-telegram {
-    height: 23px;
-    margin-right: 15px;
-}
-
-.icon-discord {
-    height: 23px;
-    margin-right: 15px;
-} */
-
-/* .contact-phone {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.contact-mail {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.contact-telegram {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.contact-discord {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-} */
-
-.contact p {
-    margin: 0;
-    line-height: 1.7;
-}
-
-.contact h1 {
-    /* margin: 0; */
-    /* margin-bottom: 20px; */
-}
-
-.skills p {
-    margin: 0;
-    line-height: 1.7;
-}
-
-
-
-
-
-
-
-
-
-
 
 @font-face {
     font-family: BeVietnamPro;
