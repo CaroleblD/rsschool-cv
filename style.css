@@ -12,6 +12,13 @@ body {
     color: white;
 }
 
+p, li {
+
+    font-family: BeVietnamPro;
+    font-weight: 200;
+    font-size: 17px;
+    color: white;
+}
 
 .my-name {
     font-family: BlackMango;
@@ -55,14 +62,23 @@ p {
 }
 
 h1 {
-    font-family: BeVietnamPro;
-    font-weight: 500;
+    /* font-family: BeVietnamPro; */
+    /* font-weight: 500; */
     text-transform: uppercase;
-    font-size: 18px;
+    /* font-size: 18px; */
     /* background-color: brown; */
     /* margin-top: 50px; */
 }
 
+.history h3 {
+    font-family: BeVietnamPro;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 18px;
+    /* background-color:rgb(221, 221, 221); */
+    margin-top: 50px;
+    /* margin-left: -15px; */
+}
 
 .My-photo {
     width: 300px;
@@ -120,12 +136,12 @@ footer {
     align-items: center;
 }
 
-.education {
+/* .education {
     display: flex;
 }
 
 .work {
-    /* background-color: blue; */
+    background-color: blue;
     width: 35%;
     line-height: 0.5;
     margin-top: -15px;
@@ -133,16 +149,41 @@ footer {
 
 .data {
     text-align: center;
-    /* background-color: blue; */
+    background-color: blue;
     width: 30%;
     margin-left: 100px;
     line-height: 0.5;
     margin-top: -15px;
-}
+} */
 
 /* .experience {
     margin-top: 140px;
 } */
+
+education p {
+    /* border-bottom: 1px dotted rgb(145, 145, 145); */
+    /* border-width: 3px; */
+    /* padding-right: -50px; */
+}
+
+.education span {
+    /* position: relative; */
+    /* bottom: -11px; */
+    /* background-color: rgb(255, 255, 255, 0.65); */
+    /* padding-right: 20px; */
+}
+
+.education .data {
+
+    float: right;
+    padding-right: 50px;
+    /* padding-left: 20px; */
+}
+
+.language p{
+    margin: 0;
+    line-height: 1.7;
+}
 
 .grey-block-1 {
     height: 80px;
@@ -207,6 +248,54 @@ footer {
     margin: 0 auto;
     margin-top: 30px;
 }
+
+.information {
+    margin-right: 25px;
+    /* background-color: rgb(221, 221, 221); */
+    width: 50%;
+    text-align: center;
+    /* margin-top: 80px; */
+    margin-left: 50px;
+}
+
+
+
+.information h3 {
+    margin-top: 25px;
+    font-family: BeVietnamPro;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+.contact {
+    margin-top: 20px;
+}
+
+.contact li {
+    /* margin: 0; */
+    line-height: 2;
+    margin-right: 39px;
+    list-style-type: none;
+    
+}
+
+/* .contact h1 {
+    margin: 0;
+    margin-bottom: 20px;
+} */
+
+.skills {
+    margin-top: 20px;
+}
+
+.skills li {
+    /* margin: 0; */
+    line-height: 2;
+    margin-right: 40px;
+    list-style-type: none;
+}
+
 
 
 @font-face {
