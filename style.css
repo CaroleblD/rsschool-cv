@@ -5,6 +5,7 @@
 body {
     width: 1000px;
     margin: 0 auto;
+    /* margin-top: 60px; */
     background-image: url(assets/images/background-leaves.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -18,76 +19,6 @@ p, li {
     font-weight: 200;
     font-size: 17px;
     color: white;
-}
-
-.my-name {
-    font-family: BlackMango;
-    font-weight: 200;
-    font-size: 55px;
-    letter-spacing: 15px;
-    line-height: 1;
-    float: right;
-    margin: 0 60px 0 0;
-    /* margin-bottom: 0px; */
-    /* border: 1px solid; */
-}
-
-.my-last-name {
-    font-family: Halimum;
-    font-weight: 100;
-    text-transform: none;
-    font-size: 40px;
-    /* line-height: 0.1; */
-    /* border: 1px solid; */
-    float: left;
-    margin: 5px 0 0 0;
-}
-
-.my-work-name {
-
-    font-family: BeVietnamPro;
-    font-weight: 200;
-    font-size: 18px;
-    letter-spacing: 10px;
-    margin-bottom: 50px;
-    text-align: center;
-    /* padding-top: 120px; */
-}
-
-p {
-
-    font-family: BeVietnamPro;
-    font-weight: 200;
-    font-size: 17px;
-}
-
-h1 {
-    /* font-family: BeVietnamPro; */
-    /* font-weight: 500; */
-    text-transform: uppercase;
-    /* font-size: 18px; */
-    /* background-color: brown; */
-    /* margin-top: 50px; */
-}
-
-.history h3 {
-    font-family: BeVietnamPro;
-    font-weight: 500;
-    text-transform: uppercase;
-    font-size: 18px;
-    /* background-color:rgb(221, 221, 221); */
-    margin-top: 50px;
-    /* margin-left: -15px; */
-}
-
-.My-photo {
-    width: 300px;
-    border-radius: 15px;
-    /* height: ; */
-}
-
-.logo-rsschool {
-    width: 100px;
 }
 
 .content {
@@ -108,12 +39,19 @@ h1 {
     padding-bottom: 100px;
 }
 
+/* ___________________________________________________ HISTORY ___________________ */
+
 .history {
     /* background-color: rgb(221, 221, 221); */
     width: 50%;
+    /* margin-top: 60px; */
     margin-right: 70px;
     margin-left: 25px;
 }
+
+/* .history h1 {
+    padding-left: 3px;
+} */
 
 .history h2 {
     margin-right: -10px;
@@ -134,87 +72,58 @@ h1 {
     backdrop-filter: blur(20px);
 }
 
-.information  {
-    margin-right: 50px;
-    /* background-color: rgb(221, 221, 221); */
-    width: 50%;
-    text-align: center;
-    /* margin-top: 80px; */
-}
-
-.information h2 {
+.history h3 {
     font-family: BeVietnamPro;
-    padding: 20px;
-    border-radius: 30px;
-    margin: 0;
-    box-shadow: inset 0px 0px 40px 0 black;
-    background-image: url(assets/images/background-leaves.jpg);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    -webkit-background-size: cover;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 18px;
+    /* background-color:rgb(221, 221, 221); */
+    margin-top: 50px;
+    /* margin-left: -15px; */
 }
 
-
-footer {
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: space-between;
-    background-color: rgba(0, 0, 0, 0.685);
-    backdrop-filter: blur(20px);
-    border-top-right-radius: 15px;
-    border-top-left-radius: 15px;
-    /* position: absolute; */
-    bottom: 0;
-    width: 800px;
-    align-items: center;
-    padding-top: 5px;
-    margin: 0 auto;
-    /* margin-left: -100px; */
-    padding-right: 30px;
-    padding-left: 30px;
-
+.my-name {
+    font-family: BlackMango;
+    font-weight: 200;
+    font-size: 55px;
+    letter-spacing: 15px;
+    line-height: 1;
+    float: right;
+    margin: 0 50px 0 0;
+    /* margin-bottom: 0px; */
+    /* border: 1px solid; */
+    background: none;
 }
 
-footer .github {
-    margin-left: 200px;
-    font-size: 22px;
+.my-last-name {
+    font-family: Halimum;
+    font-weight: 100;
+    text-transform: none;
+    font-size: 40px;
+    /* line-height: 0.1; */
+    /* border: 1px solid; */
+    float: left;
+    margin: 5px 0 0 0;
+    margin-top: -20px;
+    margin-bottom: 20px;
+    background: none;
+}
+
+.my-work-name {
+
     font-family: BeVietnamPro;
-    font-weight: 600;
-}
-
-a {
-    text-decoration: none;
-    color: black;
-    filter: invert(1);
-    border-bottom: 0px solid white;
-    /* transition: 5s; */
-
-}
-/* .education {
-    display: flex;
-}
-
-.work {
-    background-color: blue;
-    width: 35%;
-    line-height: 0.5;
-    margin-top: -15px;
-}
-
-.data {
+    font-weight: 200;
+    font-size: 18px;
+    letter-spacing: 10px;
+    /* margin-bottom: 80px; */
+    /* margin-top: 50px; */
     text-align: center;
-    background-color: blue;
-    width: 30%;
-    margin-left: 100px;
-    line-height: 0.5;
-    margin-top: -15px;
-} */
+    /* padding-top: 420px; */
+    height: 0;
+    width: 0;
+}
 
-/* .experience {
-    margin-top: 140px;
-} */
-
-education p {
+.education p {
     /* border-bottom: 1px dotted rgb(145, 145, 145); */
     /* border-width: 3px; */
     /* padding-right: -50px; */
@@ -237,6 +146,72 @@ education p {
 .language p{
     margin: 0;
     line-height: 1.7;
+}
+
+/* ____________________________________________ INFORMATION ___________________ */
+
+.information {
+    margin-right: 25px;
+    /* background-color: rgb(221, 221, 221); */
+    width: 50%;
+    text-align: center;
+    /* margin-top: 80px; */
+    margin-left: 50px;
+}
+
+.information h2 {
+    font-family: BeVietnamPro;
+    padding: 20px;
+    border-radius: 30px;
+    margin: 0;
+    box-shadow: inset 0px 0px 40px 0 black;
+    background-image: url(assets/images/background-leaves.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+}
+
+.information h3 {
+    margin-top: 25px;
+    font-family: BeVietnamPro;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+.My-photo {
+    width: 350px;
+    border-radius: 15px;
+    /* height: ; */
+    filter: brightness(80%)
+}
+
+.contact {
+    margin-top: 20px;
+}
+
+.contact li {
+    /* margin: 0; */
+    line-height: 2;
+    margin-right: 39px;
+    list-style-type: none;
+    
+}
+
+/* .contact h1 {
+    margin: 0;
+    margin-bottom: 20px;
+} */
+
+.skills {
+    margin-top: 20px;
+}
+
+.skills li {
+    /* margin: 0; */
+    line-height: 2;
+    margin-right: 40px;
+    list-style-type: none;
 }
 
 .grey-block-0 {
@@ -311,52 +286,117 @@ education p {
     margin-top: 30px;
 }
 
-.information {
-    margin-right: 25px;
-    /* background-color: rgb(221, 221, 221); */
-    width: 50%;
-    text-align: center;
-    /* margin-top: 80px; */
-    margin-left: 50px;
+/* __________________________________________________ FOOTER ___________________ */
+
+footer {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.685);
+    backdrop-filter: blur(20px);
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    /* position: absolute; */
+    bottom: 0;
+    width: 800px;
+    align-items: center;
+    padding-top: 5px;
+    margin: 0 auto;
+    /* margin-left: -100px; */
+    padding-right: 30px;
+    padding-left: 30px;
+
 }
 
+/* footer p {
+    margin-left: 30px;
+} */
 
-
-.information h3 {
-    margin-top: 25px;
+footer .github {
+    margin-left: 200px;
+    font-size: 22px;
     font-family: BeVietnamPro;
-    font-weight: 500;
-    text-transform: uppercase;
-    font-size: 18px;
+    font-weight: 600;
 }
 
-.contact {
-    margin-top: 20px;
+.logo-rsschool {
+    width: 90px;
+
 }
 
-.contact li {
-    /* margin: 0; */
-    line-height: 2;
-    margin-right: 39px;
-    list-style-type: none;
+a {
+    text-decoration: none;
+    color: black;
+    filter: invert(1);
+    border-bottom: 0px solid white;
+    /* transition: 5s; */
+
+}
+
+a:visited {
+    color: black;
+    filter: invert(1);
+}
+
+a:hover {
+    border-bottom: 1px solid black;
+    /* text-decoration: solid; */
+    transition: 0.5s;
+
     
 }
 
-/* .contact h1 {
-    margin: 0;
-    margin-bottom: 20px;
+
+
+
+
+
+
+
+/* .icon-phone {
+    height: 17px;
+    margin-right: 15px;
+}
+
+.icon-mail {
+    height: 13px;
+    margin-right: 15px;
+}
+
+.icon-telegram {
+    height: 23px;
+    margin-right: 15px;
+}
+
+.icon-discord {
+    height: 23px;
+    margin-right: 15px;
 } */
 
-.skills {
-    margin-top: 20px;
+/* .contact-phone {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.skills li {
-    /* margin: 0; */
-    line-height: 2;
-    margin-right: 40px;
-    list-style-type: none;
+.contact-mail {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
+.contact-telegram {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-discord {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+
 
 
 
