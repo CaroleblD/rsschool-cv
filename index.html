@@ -1,11 +1,167 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <p>Test timplate</p>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about-me-header">About me</a></li>
+                <li><a href="#education-header">Education</a></li>
+                <li><a href="#experience-header">Experience</a></li>
+                <li><a href="#language-header">Language</a></li>
+                <li><a href="#contact-header">Contact</a></li>
+                <li><a href="#skills-header">Skills</a></li>
+                <li><a href="#code-examples-header">Code examples</a></li>
+                <li><a href="#my-project-header">My project</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <h1>Welcom to my portfolio</h1>
+
+        <div class="content">
+
+            <article class="history">
+                <h2>History</h2>
+
+                <p class="my-full-name">
+                    <span class="my-name">Daria</span>
+                    <span class="my-last-name">Mishchenko</span>
+                    <span class="my-work-name">Frontend&nbsp;Developer</span>
+                </p>
+
+                <section>
+                    <h3 id="about-me-header">About Me</h3>
+                    <p>As a child, I dreamed that one day I would create my first game that would appeal to millions of
+                        people and everyone would play it. I had the chance to enter School 21, where I fully realized
+                        what programming is. I tried programming in C, dabbled in system administration, and tried my
+                        hand at Frontend, which I chose for myself as a profession. Currently, I devote all my free time
+                        to learning HTML, CSS and JavaScript, and my goal is to become an experienced Frontend
+                        developer.
+                    </p>
+                </section>
+
+                <section>
+                    <h3 id="education-header">Education</h3>
+                    <div class="education">
+                        <p><span>School 21</span><span class="data">2023 - 2024</span></p>
+                        <p><span>JavaScript Club</span><span class="data">2024</span></p>
+                        <p><span>RS School</span><span class="data">2024</span></p>
+                    </div>
+                </section>
+
+                <section>
+                    <h3 id="experience-header">Experience</h3>
+                    <p>I have no experience as a programmer. I used to work in a library, create presentations and draw posters.</p>
+                </section>
+
+                <section>
+                    <h3 id="language-header">Language</h3>
+                    <div class="language">
+                        <p>Russian - Native;</p>
+                        <p> English - Begginer.</p>
+                    </div>
+                </section>
+            </article>
+
+            <article class="information">
+
+                <div class="grey-block-0"></div>
+
+                <h2>Information</h2>
+
+                <div class="grey-block-1"></div>
+
+                <section>
+                    <img class="my-photo" src="assets/images/my-photo-html.jpg" alt="My-photo">
+
+                    <div class="grey-block-2"></div>
+
+                    <div class="line-1"></div>
+
+                    <div class="contact">
+                        <h3 id="contact-header">Contact</h3>
+                        <ul>
+                            <li>Phone: +7 996 446 16 22</li>
+                            <li>E-mail: endlesslonelinesselln@gmail.com</li>
+                            <li>Telegram: @dashkunt</li>
+                            <li>Discord: dashkunt</li>
+                        </ul>
+                    </div>
+
+                    <div class="line-2"></div>
+                </section>
+
+                <div class="grey-block-3"></div>
+
+                <section>
+                    <div class="line-1"></div>
+
+                    <h3 id="skills-header">Skills</h3>
+                    <div class="skills">
+                        <ul>
+                            <li>HTM, CSS, JavaScript</li>
+                            <li>C, Bash, DevOps</li>
+                            <li>GitHub, VS Code, Canva</li>
+                        </ul>
+                    </div>
+                    <div class="line-2"></div>
+                </section>
+
+                <div class="grey-block-4"></div>
+            </article>
+        </div>
+
+        <article class="code-examples">
+
+            <h2 id="code-examples-header">Code examples</h2>
+
+            <p>This code does not execute properly. Try to figure out why.</p>
+
+            <div>
+                <ol>
+                    <li><span>function multiply (a, b) {</span></li>
+                    <li><span>&nbsp;&nbsp;&nbsp;&nbsp;return a * b;</span></li>
+                    <li><span>}</span></li>
+                </ol>
+            </div>
+
+        </article>
+
+        <article class="my-project">
+
+            <h2 id="my-project-header">My project</h2>
+            <div class="box">
+                <a href="">
+                    <div class="box-project-1">Portfolio</div>
+                </a>
+                <a href="">
+                    <div class="box-project-2">To-do List</div>
+                </a>
+            </div>
+        </article>
+    </main>
+
+    <footer>
+        <a href="https://rs.school/courses/javascript-preschool-ru">
+            <img class="logo-rsschool"
+                src="assets/images/rsschool-logo.png" alt="RS School Logotype">
+        </a>
+        <div class="github">
+            <a href="https://github.com/CaroleblD">GitHub</a>
+        </div>
+        <p>© 2024 by Daria Mishchenko</p>
+    </footer>
 </body>
+
 </html>
