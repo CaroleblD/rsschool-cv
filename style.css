@@ -46,15 +46,29 @@ nav ul {
 }
 
 nav ul li {
-    margin: 0 auto;
-}
-
-nav a {
     font-family: BeVietnamPro;
     font-weight: 600;
     font-size: 17px;
     text-transform: uppercase;
+    margin: 0 auto;
 }
+
+nav a {
+    text-decoration: none;
+    color: white;
+    border-bottom: 0px solid black;
+}
+
+nav a:hover {
+    transition: 0.5s;
+    border-bottom: 1px solid white;
+}
+
+
+
+
+
+
 
 h1 {
     display: none;
@@ -93,7 +107,6 @@ h3 {
     border-radius: 50px;
     margin-bottom: 50px;
     box-shadow: 0px 0px 40px 0 black;
-    /* padding-bottom: 100px; */
 }
 
 /* ___________________________________________________ HISTORY ___________________ */
@@ -110,9 +123,12 @@ h3 {
 }
 
 .history h3 {
-    margin-top: 50px;
+    padding-top: 50px;
 }
 
+.history p {
+    text-align: justify;
+}
 
 .my-full-name {
     margin: 0;
@@ -152,7 +168,6 @@ h3 {
 .education .data {
     float: right;
     padding-right: 50px;
-    /* padding-left: 20px; */
 }
 
 .language p{
@@ -164,7 +179,7 @@ h3 {
 
 .information {
     width: 50%;
-    margin-right: 25px;
+    margin-right: 35px;
     margin-left: 50px;
     text-align: center;
 
@@ -173,111 +188,65 @@ h3 {
 .my-photo {
     width: 350px;
     border-radius: 15px;
-    filter: brightness(80%)
+    filter: brightness(80%);
+    margin-bottom: -5px;
 }
 
-/* ???????????????????????????????????????????????? */
 
-.contact {
-    /* margin-top: 20px; */
-}
-
-.contact li {
-    /* margin: 0; */
-    /* line-height: 2; */
-    /* margin-right: 39px; */
-    /* list-style-type: none; */
-}
-
-.contact ul {
-    padding: 0;
-    line-height: 2;
-
-}
-
-.skills {
-    /* margin-top: 20px; */
-}
-
-.skills li {
-    /* margin: 0; */
-    /* line-height: 2; */
-    /* margin-right: 40px; */
-    /* list-style-type: none; */
-}
-
+.contact ul,
 .skills ul {
     padding: 0;
+    line-height: 2;
+    list-style-type: none;
+    margin-bottom: 30px;
+}
+
+.grey-block-0,
+.grey-block-1,
+.grey-block-2,
+.grey-block-3,
+.grey-block-4 {
+    width: 50%;
+    background-color: rgb(18, 34, 13);
+    margin: 0 auto;
 }
 
 .grey-block-0 {
     height: 40px;
-    width: 50%;
-    background-color: rgb(18, 34, 13);
-    margin: 0 auto;
+
 }
 
 .grey-block-1 {
     height: 80px;
-    width: 50%;
-    background-color: rgb(18, 34, 13);
-    margin: 0 auto;
 }
 
 .grey-block-2 {
     height: 60px;
-    width: 50%;
-    background-color: rgb(18, 34, 13);
-    margin: 0 auto;
-    margin-top: -5px;
 }
 
 .grey-block-3 {
-    height: 40px;
-    width: 50%;
-    background-color: rgb(18, 34, 13);
-    margin: 0 auto;
-    /* margin-top: 1px; */
+    height: 60px;
 
 }
 
 .grey-block-4 {
-    height: 80px;
-    width: 50%;
-    background-color: rgb(18, 34, 13);
-    margin: 0 auto;
-    /* margin-top: 1px; */
+    height: 100px;
 }
 
-.line-1 {
-    height: 1px;
-    width: 85%;
-    background-color: white;
-    margin: 0 auto;
-
-}
-
+.line-1,
 .line-2 {
     height: 1px;
     width: 85%;
     background-color: white;
     margin: 0 auto;
-    /* margin-top: 30px; */
 }
 
-.line-3 {
-    height: 1px;
-    width: 85%;
-    background-color: white;
-    margin: 0 auto;
+.line-1 {
+    margin-bottom: 30px;
 }
 
-.line-4 {
-    height: 1px;
-    width: 85%;
-    background-color: white;
-    margin: 0 auto;
-    /* margin-top: 30px; */
+.line-2 {
+    margin-bottom: 1px;
 }
 
 /* __________________________________________ CODE EXAMPLES ___________________ */
@@ -285,55 +254,31 @@ h3 {
 .code-examples {
     background-color: rgba(0, 0, 0, 0.749);
     backdrop-filter: blur(20px);
-    /* align-items: center; */
-    /* margin-top: 10px; */
-    /* width: 1000px; */
-    /* margin: 0 auto; */
-    /* border: 1px solid; */
     border-radius: 50px;
     margin-bottom: 50px;
-    /* background-color: white;
-    opacity: 70%; */
     box-shadow: 0px 0px 40px 0 black;
     padding-bottom: 50px;
-    padding-top: 10px;
-    /* padding-left: 50px; */
+    padding-top: 40px;
+    padding-left: 50px;
+    padding-right: 50px;
+
     font-family: BeVietnamPro;
-   
 }
 
 .code-examples h2 {
     text-transform: uppercase;
-    margin-top: 30px;
+    /* margin-top: 30px; */
     margin-bottom: 50px;
 }
 
-/* ???????????????????????????????????????????????? */
-
 .code-examples div {
-    /* background-color: rgba(0, 0, 0, 0.749); */
-    /* background-color: rgba(42, 42, 42); */
+
     background-color: rgb(18, 34, 13);
-
-    /* align-items: center; */
-    /* margin-top: 10px; */
-
-
-
-    /* width: 880px; */
-
-
-    /* margin: 0 auto; */
-    /* border: 1px solid; */
+    width: 880px;
     border-radius: 15px;
-    /* margin-bottom: 50px; */
-    /* background-color: white;
-    opacity: 70%; */
     box-shadow: inset 0px 0px 40px 0 black;
     padding-bottom: 15px;
-    /* margin-left: 0; */
-    /* margin-top: 30px; */
-    /* padding-right: -35px; */
+    margin-top: 30px;
     padding-top: 10px;
     padding-left: 15px;
 
@@ -358,75 +303,79 @@ h3 {
 
     background-color: rgba(0, 0, 0, 0.749);
     backdrop-filter: blur(20px);
-    /* align-items: center; */
-    /* margin-top: 10px; */
-    /* width: 1000px; */
-    /* margin: 0 auto; */
-    /* border: 1px solid; */
     border-radius: 50px;
     margin-bottom: 50px;
-    /* background-color: white;
-    opacity: 70%; */
     box-shadow: 0px 0px 40px 0 black;
     padding-bottom: 50px;
-    /* padding-top: 10px; */
-    /* padding-left: 50px;/ */
-    /* font-family: BeVietnamPro; */
+    padding-top: 40px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 .my-project h2 {
     text-transform: uppercase;
-    /* margin-top: 30px; */
     margin-bottom: 50px;
 }
 
 .box {
     display: flex;
-    /* margin-left: -17px; */
-    /* ma */
-    /* margin-top: -20px; */
-
+    margin-left: -15px;
+    color: black;
+    font-family: BeVietnamPro;
+    font-weight: 600;
+    font-size: 40px;
 }
 
 .box a {
-    filter: invert(0);
+    text-decoration: none;
+    color: black;
 }
 
 .box a:hover {
     transform: scale(0.95);
-    /* transition: 1s; */
+    transition: 0.5s;
     filter: brightness(30%);
+    /* color: white; */
 }
 
-/* .box a::after {
-    filter: brightness(80%);
-} */
+.box a:visited {
+    color: black;
+    text-decoration: none;
+}
 
-.box-img-1 {
+
+.box-project-1 {
     background-image: url(assets/images/img-portfolio.jpg);
     box-shadow: inset 0 0 100px 20px black;
     width: 450px;
     height: 300px;
     border-radius: 20px;
-    /* margin: 0 auto; */
-    margin-right: 15px;
+    margin-right: 15px;    
 }
 
-.box-img-2 {
+.box-project-1 {
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    display: flex;
+}
+
+.box-project-2{
     background-image: url(assets/images/img-to-do-list.jpg);
     box-shadow: inset 0 0 100px 20px black;
     width: 450px;
     height: 300px;
     border-radius: 20px;
     margin-left: 15px;
-
-    /* margin: 0 auto; */
-    
 }
 
+.box-project-2 {
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    display: flex;
 
-
-
+}
 
 /* __________________________________________________ FOOTER ___________________ */
 
@@ -438,21 +387,14 @@ footer {
     backdrop-filter: blur(20px);
     border-top-right-radius: 15px;
     border-top-left-radius: 15px;
-    /* position: absolute; */
-    /* bottom: 0; */
     width: 800px;
     align-items: center;
-    padding-top: 5px;
     margin: 0 auto;
-    /* margin-left: -100px; */
+    padding-top: 5px;
     padding-right: 30px;
     padding-left: 30px;
 
 }
-
-/* footer p {
-    margin-left: 30px;
-} */
 
 footer .github {
     margin-left: 200px;
@@ -462,8 +404,7 @@ footer .github {
 }
 
 .logo-rsschool {
-    width: 90px;
-
+    width: 80px;
 }
 
 footer a {
@@ -471,119 +412,22 @@ footer a {
     color: black;
     filter: invert(1);
     border-bottom: 0px solid white;
-    /* transition: 5s; */
 
-}
-
-footer a:visited {
-    color: black;
-    filter: invert(1);
 }
 
 footer a:hover {
     border-bottom: 1px solid black;
-    /* text-decoration: solid; */
     transition: 0.5s;
-
-    
 }
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* .icon-phone {
-    height: 17px;
-    margin-right: 15px;
-}
-
-.icon-mail {
-    height: 13px;
-    margin-right: 15px;
-}
-
-.icon-telegram {
-    height: 23px;
-    margin-right: 15px;
-}
-
-.icon-discord {
-    height: 23px;
-    margin-right: 15px;
-} */
-
-/* .contact-phone {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.contact-mail {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.contact-telegram {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.contact-discord {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-} */
-
-
-
-
-
-
-
-
-
-
-
-
-@font-face {
-    font-family: BeVietnamPro;
-    src: url("assets/fonts/BeVietnamPro/BeVietnamPro-Thin.ttf");
-    font-weight: 100;
-}
 
 @font-face {
     font-family: BeVietnamPro;
     src: url("assets/fonts/BeVietnamPro/BeVietnamPro-Light.ttf");
     font-weight: 200;
-}
-
-@font-face {
-    font-family: BeVietnamPro;
-    src: url("assets/fonts/BeVietnamPro/BeVietnamPro-Regular.ttf");
-    font-weight: 300;
-}
-
-@font-face {
-    font-family: BeVietnamPro;
-    src: url("assets/fonts/BeVietnamPro/BeVietnamPro-Medium.ttf");
-    font-weight: 400;
 }
 
 @font-face {
@@ -599,49 +443,11 @@ footer a:hover {
 }
 
 
-
-
-
-
-@font-face {
-    font-family: BlackMango;
-    src: url("assets/fonts/BlackMango/BlackMango-Thin.ttf");
-    font-weight: 100;
-}
-
 @font-face {
     font-family: BlackMango;
     src: url("assets/fonts/BlackMango/BlackMango-Light.ttf");
     font-weight: 200;
 }
-
-@font-face {
-    font-family: BlackMango;
-    src: url("assets/fonts/BlackMango/BlackMango-Regular.ttf");
-    font-weight: 300;
-}
-
-@font-face {
-    font-family: BlackMango;
-    src: url("assets/fonts/BlackMango/BlackMango-Medium.ttf");
-    font-weight: 400;
-}
-
-@font-face {
-    font-family: BlackMango;
-    src: url("assets/fonts/BlackMango/BlackMango-Bold.ttf");
-    font-weight: 500;
-}
-
-@font-face {
-    font-family: BlackMango;
-    src: url("assets/fonts/BlackMango/BlackMango-Black.ttf");
-    font-weight: 600;
-}
-
-
-
-
 
 
 @font-face {
