@@ -1,6 +1,6 @@
 # Hello!👋
 
-![my-photo](/rsschool-cv/images/my-photo.jpg)
+![my-photo](/rsschool-cv/assets/images/my-photo.jpg)
 
 # My name is Daria Mishchenko🌻
 
