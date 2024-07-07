@@ -1,0 +1,418 @@
+@font-face {
+    font-family: BeVietnamPro;
+    src: url("assets/fonts/BeVietnamPro/BeVietnamPro-Light.ttf");
+    font-weight: 200;
+}
+
+@font-face {
+    font-family: BeVietnamPro;
+    src: url("assets/fonts/BeVietnamPro/BeVietnamPro-Bold.ttf");
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: BeVietnamPro;
+    src: url("assets/fonts/BeVietnamPro/BeVietnamPro-Black.ttf");
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: BlackMango;
+    src: url("assets/fonts/BlackMango/BlackMango-Light.ttf");
+    font-weight: 200;
+}
+
+@font-face {
+    font-family: Halimum;
+    src: url("assets/fonts/Halimum/Halimun.ttf");
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    width: 1000px;
+    margin: 0 auto;
+    background-image: url(assets/images/background-leaves.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+}
+
+p, li {
+    font-family: BeVietnamPro;
+    font-weight: 200;
+    font-size: 17px;
+    color: white;
+}
+
+nav {
+    width: 1300px;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.749);
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    margin-left: -140px;
+    margin-bottom: 50px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 20px;
+    list-style-type: none;
+}
+
+nav ul li {
+    font-family: BeVietnamPro;
+    font-weight: 600;
+    font-size: 17px;
+    text-transform: uppercase;
+    margin: 0 auto;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    border-bottom: 0px solid black;
+}
+
+nav a:hover {
+    transition: 0.5s;
+    border-bottom: 1px solid white;
+}
+
+h1 {
+    display: none;
+}
+
+h2 {
+    font-family: BeVietnamPro;
+    padding: 20px;
+    border-radius: 30px;
+    text-align: center;
+    margin: 0;
+
+    box-shadow: inset 0px 0px 40px 0 black;
+    background-image: url(assets/images/background-leaves.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+h3 {
+    font-family: BeVietnamPro;
+    font-weight: 500;
+    text-transform: uppercase;
+    
+}
+
+.content {
+    background-color: rgba(0, 0, 0, 0.749);
+    backdrop-filter: blur(20px);
+    display: flex;
+    flex-direction: row-reverse;
+    border-radius: 50px;
+    margin-bottom: 50px;
+    box-shadow: 0px 0px 40px 0 black;
+}
+
+.history {
+    width: 50%;
+    margin-right: 70px;
+    margin-left: 25px;
+}
+
+.history h2 {
+    margin-top: 40px;
+    margin-bottom: 80px;
+}
+
+.history h3 {
+    padding-top: 50px;
+}
+
+.history p {
+    text-align: justify;
+}
+
+.my-full-name {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.my-name {
+    font-family: BlackMango;
+    font-weight: 200;
+    font-size: 55px;
+    letter-spacing: 15px;
+    text-align: right;
+    text-transform: uppercase;
+    margin-right: 20px;
+    margin-bottom: -30px;
+
+}
+
+.my-last-name {
+    font-family: Halimum;
+    font-weight: 100;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.my-work-name {
+    font-family: BeVietnamPro;
+    font-weight: 200;
+    font-size: 18px;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+}
+
+.education .data {
+    float: right;
+    padding-right: 50px;
+}
+
+.language p{
+    margin: 0;
+    line-height: 1.8;
+}
+
+.information {
+    width: 50%;
+    margin-right: 35px;
+    margin-left: 50px;
+    text-align: center;
+
+}
+
+.my-photo {
+    width: 350px;
+    border-radius: 15px;
+    filter: brightness(80%);
+    margin-bottom: -5px;
+}
+
+
+.contact ul,
+.skills ul {
+    padding: 0;
+    line-height: 2;
+    list-style-type: none;
+    margin-bottom: 30px;
+}
+
+.grey-block-0,
+.grey-block-1,
+.grey-block-2,
+.grey-block-3,
+.grey-block-4 {
+    width: 50%;
+    background-color: rgb(18, 34, 13);
+    margin: 0 auto;
+}
+
+.grey-block-0 {
+    height: 40px;
+
+}
+
+.grey-block-1 {
+    height: 80px;
+}
+
+.grey-block-2 {
+    height: 60px;
+}
+
+.grey-block-3 {
+    height: 60px;
+
+}
+
+.grey-block-4 {
+    height: 100px;
+}
+
+.line-1,
+.line-2 {
+    height: 1px;
+    width: 85%;
+    background-color: white;
+    margin: 0 auto;
+}
+
+.line-1 {
+    margin-bottom: 30px;
+}
+
+.line-2 {
+    margin-bottom: 1px;
+}
+
+.code-examples {
+    background-color: rgba(0, 0, 0, 0.749);
+    backdrop-filter: blur(20px);
+    border-radius: 50px;
+    margin-bottom: 50px;
+    box-shadow: 0px 0px 40px 0 black;
+    padding-bottom: 50px;
+    padding-top: 40px;
+    padding-left: 50px;
+    padding-right: 50px;
+
+    font-family: BeVietnamPro;
+}
+
+.code-examples h2 {
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+
+.code-examples div {
+
+    background-color: rgb(18, 34, 13);
+    width: 880px;
+    border-radius: 15px;
+    box-shadow: inset 0px 0px 40px 0 black;
+    padding-bottom: 15px;
+    margin-top: 30px;
+    padding-top: 10px;
+    padding-left: 15px;
+
+}
+
+.code-examples li {
+    letter-spacing: 2px;
+    line-height: 2;
+    color: rgb(126, 126, 126);
+
+}
+
+.code-examples li span {
+    color: rgb(255, 255, 255);
+    padding-left: 30px
+}
+
+.my-project {
+
+    background-color: rgba(0, 0, 0, 0.749);
+    backdrop-filter: blur(20px);
+    border-radius: 50px;
+    margin-bottom: 50px;
+    box-shadow: 0px 0px 40px 0 black;
+    padding-bottom: 50px;
+    padding-top: 40px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.my-project h2 {
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+
+.box {
+    display: flex;
+    margin-left: -15px;
+    color: black;
+    font-family: BeVietnamPro;
+    font-weight: 600;
+    font-size: 40px;
+}
+
+.box a {
+    text-decoration: none;
+    color: black;
+}
+
+.box a:hover {
+    transform: scale(0.95);
+    transition: 0.5s;
+    filter: brightness(30%);
+}
+
+.box a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+
+.box-project-1 {
+    background-image: url(assets/images/img-portfolio.jpg);
+    box-shadow: inset 0 0 100px 20px black;
+    width: 450px;
+    height: 300px;
+    border-radius: 20px;
+    margin-right: 15px;    
+}
+
+.box-project-1 {
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    display: flex;
+}
+
+.box-project-2{
+    background-image: url(assets/images/img-to-do-list.jpg);
+    box-shadow: inset 0 0 100px 20px black;
+    width: 450px;
+    height: 300px;
+    border-radius: 20px;
+    margin-left: 15px;
+}
+
+.box-project-2 {
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    display: flex;
+
+}
+
+footer {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.685);
+    backdrop-filter: blur(20px);
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    width: 800px;
+    align-items: center;
+    margin: 0 auto;
+    padding-top: 5px;
+    padding-right: 30px;
+    padding-left: 30px;
+
+}
+
+footer .github {
+    margin-left: 200px;
+    font-size: 22px;
+    font-family: BeVietnamPro;
+    font-weight: 600;
+}
+
+.logo-rsschool {
+    width: 80px;
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
+    filter: invert(1);
+    border-bottom: 0px solid white;
+
+}
+
+footer a:hover {
+    border-bottom: 1px solid black;
+    transition: 0.5s;
+}
+
